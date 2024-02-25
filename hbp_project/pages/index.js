@@ -105,6 +105,21 @@ export default function Home() {
           <Mysection
             image={`/images/Monet_Water_Lilies.webp`}
             headline={`Additional Resources`}
+            info={
+              <div>
+                  <p>
+                      <a href='https://oceanconservancy.org/'>Ocean Conservancy</a>
+                  </p>
+                  <p>
+                      <a href='https://www.nationalgeographic.org/'>National Geographic</a>
+                  </p>
+                  <p>
+                      <a href='https://oceana.org/living-blue-10-ways-you-can-help-save-oceans/'>Ways you can help</a>
+                  </p>
+                   
+                    
+              </div>
+          }
             goToSectionRef={section1}
             scrollTo={scrollTo}
             showArrow={false}
