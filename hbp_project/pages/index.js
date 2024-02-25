@@ -116,8 +116,6 @@ export default function Home() {
                   <p>
                       <a href='https://oceana.org/living-blue-10-ways-you-can-help-save-oceans/'>Ways you can help</a>
                   </p>
-                   
-                    
               </div>
           }
             goToSectionRef={section1}
