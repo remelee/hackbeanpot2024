@@ -3,10 +3,10 @@ import Head from "next/head";
 import Mysection from "../components/Mysection";
 import styles from "../styles/Home.module.scss";
 
+
 export default function Home() {
   const section1 = useRef();
   const section2 = useRef();
-  const section3 = useRef();
   const sectionAtlantic = useRef();
   const sectionPacific = useRef();
   const sectionArctic = useRef();
@@ -96,6 +96,15 @@ export default function Home() {
             It has an abundance of natural resources such as fresh water reserves and fossil fuels. 
             It also contains a lot of fisheries. 
             A large amount of the ocean is covered in ice which has been gradually melting due to global warming.`}
+            goToSectionRef={section2}
+            scrollTo={scrollTo}
+            showArrow={true}
+          />
+        </div>
+        <div ref={section2}>
+          <Mysection
+            image={`/images/Monet_Water_Lilies.webp`}
+            headline={`Additional Resources`}
             goToSectionRef={section1}
             scrollTo={scrollTo}
             showArrow={false}
