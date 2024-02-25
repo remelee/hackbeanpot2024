@@ -36,7 +36,7 @@ export default function Home() {
           <Mysection
             image={`/images/Atlantic_Ocean.jpg`}
             headline={`Atlantic Ocean`}
-            info={`There are many interesting things about the Atlantic Ocean`}
+            info={`The second largest Ocean, it’s home to over 200,000 marine species. It covers 85,133,000 km2 (32,870,000 sq mi) otherwise known as ⅕ of the earth’s surface. It’s connected to all the other oceans. The deepest part is the Puerto Rico trench which is 8,376 m (27,480 ft) deep. It’s the resting place of the Titanic and her passengers as well as the people from the Titan Submersible. It’s also home to the bermuda triangle`}
             goToSectionRef={sectionPacific}
             scrollTo={scrollTo}
             showArrow={true}
@@ -46,7 +46,7 @@ export default function Home() {
           <Mysection
             image={`/images/Pacific_Ocean.jpg`}
             headline={`Pacific Ocean`}
-            info={`There are many interesting things about the Pacific Ocean`}
+            info={`The largest ocean, it covers more than 30% of the earth’s surface and contains over 200,000 marine species. It has over 25,000 islands. It’s home to the great barrier reef. The deepest part is the Challenger Deep which is also the deepest point in the world. It’s about 38,000 ft deep. It’s the most polluted ocean containing around 2 trillion plastic pieces.`}
             goToSectionRef={sectionIndian}
             scrollTo={scrollTo}
             showArrow={true}
@@ -56,7 +56,7 @@ export default function Home() {
           <Mysection
             image={`/images/Indian_Ocean.jpg`}
             headline={`Indian Ocean`}
-            info={`There are many interesting things about the Indian Ocean`}
+            info={`The 3rd largest ocean in the world. It covers around 70,560,000 km2 (27,240,000 sq mi). It contains over 15,000 marine species. Its deepest point is the Java Trench which is around 24,000 ft deep. It’s the warmest ocean in the world and because of that it has limited ocean life. It’s being hurt by pollution and overfishing. It has about 40% of the world’s oil deposits. `}
             goToSectionRef={sectionSouth}
             scrollTo={scrollTo}
             showArrow={true}
@@ -66,7 +66,7 @@ export default function Home() {
           <Mysection
             image={`/images/Southern_Ocean.jpg`}
             headline={`Southern Ocean`}
-            info={`There are many interesting things about the Southern Ocean`}
+            info={`The 4th largest ocean in the world it covers around 20,327,000 km2 (7,848,000 sq mi). It’s home to around 9,000 species.  Its deepest point is around 24,000ft. It contains the Drake Passage which is a passageway that you need to travel through to get to Antarctica. It’s home to the blue whale which is the largest animal on earth. There are massive Icebergs in the ocean.`}
             goToSectionRef={sectionArctic}
             scrollTo={scrollTo}
             showArrow={true}
@@ -76,7 +76,7 @@ export default function Home() {
           <Mysection
             image={`/images/Arctic_Ocean.jpg`}
             headline={`Arctic Ocean`}
-            info={`There are many interesting things about the Arctic Ocean`}
+            info={`The smallest and shallowest ocean it contains around 5,000 marine species. It covers 14,060,000 km2 (5,430,000 sq mi) of the world. The deepest part is only around 18,000ft. It has an abundance of natural resources such as fresh water reserves and fossil fuels. It also contains a lot of fisheries. A large amount of the ocean is covered in ice which has been gradually melting due to global warming.`}
             goToSectionRef={section1}
             scrollTo={scrollTo}
             showArrow={false}
