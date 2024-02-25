@@ -42,7 +42,7 @@ export default function Mysection({
     <div className={styles.section} ref={sectionRef}>
       <div className={styles.copy}>
         <h2 ref={headlineRef}>{headline}</h2>
-        <h4>{info}</h4>
+        <h4><i>{info}</i></h4>
         
       </div>
       <Image src={image} layout={`fill`} />
