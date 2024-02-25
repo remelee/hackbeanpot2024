@@ -64,7 +64,7 @@ export default function Home() {
         </div>
         <div ref={sectionSouth}>
           <Mysection
-            image={`/images/Southern_Ocean.png`}
+            image={`/images/Southern_Ocean.jpg`}
             headline={`Southern Ocean`}
             info={`There are many interesting things about the Southern Ocean`}
             goToSectionRef={sectionArctic}
