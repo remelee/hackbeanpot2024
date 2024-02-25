@@ -7,6 +7,11 @@ export default function Home() {
   const section1 = useRef();
   const section2 = useRef();
   const section3 = useRef();
+  const sectionAtlantic = useRef();
+  const sectionPacific = useRef();
+  const sectionArctic = useRef();
+  const sectionSouth = useRef();
+  const sectionIndian = useRef();
   function scrollTo(section) {
     section.current.scrollIntoView({ behavior: "smooth" });
   }
@@ -21,25 +26,57 @@ export default function Home() {
         <div ref={section1}>
           <Mysection
             image={`/images/Eugene_Isabey_Sea_Painting.jpg`}
-            headline={`Explore the ocean`}
-            goToSectionRef={section2}
+            headline={`Explore the Five Oceans`}
+            goToSectionRef={sectionAtlantic}
             scrollTo={scrollTo}
             showArrow={true}
           />
         </div>
-        <div ref={section2}>
+        <div ref={sectionAtlantic}>
           <Mysection
-            image={`/images/Monet_Water_Lilies.webp`}
-            headline={`Dive Under`}
-            goToSectionRef={section3}
+            image={`/images/Atlantic_Ocean.jpg`}
+            headline={`Atlantic Ocean`}
+            info={`There are many interesting things about the Atlantic Ocean`}
+            goToSectionRef={sectionPacific}
             scrollTo={scrollTo}
             showArrow={true}
           />
         </div>
-        <div ref={section3}>
+        <div ref={sectionPacific}>
           <Mysection
-            image={`/images/Under_The_Sea.jpg`}
-            headline={`Under the Sea`}
+            image={`/images/Pacific_Ocean.jpg`}
+            headline={`Pacific Ocean`}
+            info={`There are many interesting things about the Pacific Ocean`}
+            goToSectionRef={sectionIndian}
+            scrollTo={scrollTo}
+            showArrow={true}
+          />
+        </div>
+        <div ref={sectionIndian}>
+          <Mysection
+            image={`/images/Indian_Ocean.jpg`}
+            headline={`Indian Ocean`}
+            info={`There are many interesting things about the Indian Ocean`}
+            goToSectionRef={sectionSouth}
+            scrollTo={scrollTo}
+            showArrow={true}
+          />
+        </div>
+        <div ref={sectionSouth}>
+          <Mysection
+            image={`/images/Southern_Ocean.png`}
+            headline={`Southern Ocean`}
+            info={`There are many interesting things about the Southern Ocean`}
+            goToSectionRef={sectionArctic}
+            scrollTo={scrollTo}
+            showArrow={true}
+          />
+        </div>
+        <div ref={sectionArctic}>
+          <Mysection
+            image={`/images/Arctic_Ocean.jpg`}
+            headline={`Arctic Ocean`}
+            info={`There are many interesting things about the Arctic Ocean`}
             goToSectionRef={section1}
             scrollTo={scrollTo}
             showArrow={false}

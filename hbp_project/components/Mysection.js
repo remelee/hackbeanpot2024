@@ -8,6 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Mysection({
   image,
   headline,
+  info,
   scrollTo,
   goToSectionRef,
   showArrow,
@@ -19,7 +20,7 @@ export default function Mysection({
       headlineRef.current,
       {
         autoAlpha: 0,
-        y: -20,
+        y: -60,
       },
       {
         y: 0,
@@ -41,6 +42,8 @@ export default function Mysection({
     <div className={styles.section} ref={sectionRef}>
       <div className={styles.copy}>
         <h2 ref={headlineRef}>{headline}</h2>
+        <h4>{info}</h4>
+        
       </div>
       <Image src={image} layout={`fill`} />
       {showArrow && (
