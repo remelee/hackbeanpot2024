@@ -116,6 +116,7 @@ export default function Home() {
                   <p>
                       <a href='https://oceana.org/living-blue-10-ways-you-can-help-save-oceans/'>Ways you can help</a>
                   </p>
+                  <p> <a href='https://www.nature.org/en-us/what-we-do/our-priorities/protect-water-and-land/land-and-water-stories/protecting-our-ocean/' >Nature Conservancy</a></p>
               </div>
           }
             goToSectionRef={section1}
